@@ -3,7 +3,7 @@ def consolidate_cart(cart)
   cart.each do |items_array|
     items_array.each do |item, price_hash|
       new_cart[item] ||= price_hash
-      if new_cart
+      if new_cart[item]
 end
 
 def apply_coupons(cart, coupons)
