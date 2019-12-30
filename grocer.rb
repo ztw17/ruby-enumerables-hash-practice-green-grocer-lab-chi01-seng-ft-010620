@@ -5,7 +5,7 @@ def consolidate_cart(cart)
       new_cart[item] ||= price_hash
       if new_cart[item][:count]
         new_cart[item][:count] += 1 
-      else new_cart[item]
+      else new_cart[item][:count]
 end
 
 def apply_coupons(cart, coupons)
