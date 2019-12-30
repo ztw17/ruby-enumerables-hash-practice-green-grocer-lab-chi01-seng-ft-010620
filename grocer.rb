@@ -4,7 +4,7 @@ def consolidate_cart(cart)
     items_array.each do |item, price_hash|
       new_cart[item] ||= price_hash
       if new_cart[item][:count]
-        new_cart[item][count]
+        new_cart[item][:count]
 end
 
 def apply_coupons(cart, coupons)
