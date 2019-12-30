@@ -15,7 +15,8 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
-  coupons.each do 
+  coupons.each do |coupon|
+    
 end
 
 def apply_clearance(cart)
