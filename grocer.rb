@@ -1,11 +1,6 @@
 def consolidate_cart(cart)
   
-  groceries = {}
-  
-  cart.each do |grocery|
-    grocery.each do |item, item.hash|
-      groceries[item] || = item_hash
-      
+
 end
 
 def apply_coupons(cart, coupons)
