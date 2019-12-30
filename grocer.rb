@@ -3,7 +3,7 @@ def consolidate_cart(cart)
   groceries = {}
   
   cart.each do |grocery|
-    grocery.each do 
+    grocery.each do |item, item.hash|
 end
 
 def apply_coupons(cart, coupons)
