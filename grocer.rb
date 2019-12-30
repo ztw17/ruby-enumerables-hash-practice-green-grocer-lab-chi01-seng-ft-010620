@@ -16,7 +16,7 @@ end
 
 def apply_coupons(cart, coupons)
   coupons.each do |coupon|
-    if cart.keys.include? 
+    if cart.keys.include? coupon 
 end
 
 def apply_clearance(cart)
