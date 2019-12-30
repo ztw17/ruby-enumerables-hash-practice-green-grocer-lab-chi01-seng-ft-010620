@@ -4,7 +4,8 @@ def consolidate_cart(cart)
   
   cart.each do |grocery|
     grocery.each do |item, item.hash|
-      groceries[item] || = 
+      groceries[item] || = item_hash
+      
 end
 
 def apply_coupons(cart, coupons)
